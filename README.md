@@ -1,2 +1,4 @@
 # Cafe-Website-Creating
-i create a cafe websit for my friend "RISHABH" 
+This project is a fully responsive and modern website that I personally designed and developed for my friend Rishabh, to showcase his café and create a strong online presence. I worked on this project entirely by myself, from planning to execution, with the aim of delivering a clean, attractive, and user-friendly platform that represents the café’s identity.
+The website includes several sections such as Home, Menu, About Us,  and Contact. The Home page offers a welcoming introduction to the café. The Menu page displays a simple and organized list of food and drinks. The About Us section shares the café’s story and values, while the Gallery showcases images of the café’s ambiance and offerings. The Contact page provides location details and ways for customers to get in touch.
+I built this website using only HTML and CSS, focusing on clean code and visually appealing layouts. It is fully responsive, ensuring that it works smoothly on desktops, tablets, and smartphones. The codebase is simple and easy to maintain, making it flexible for future updates or modifications
