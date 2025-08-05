@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rishabh's Cafe</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      background-color: #fff;
+    }
+    header {
+      background: #8B4513;
+      color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+    }
+    nav {
+      background: #5C3D2E;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.8rem 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://source.unsplash.com/1600x600/?coffee,cafe') no-repeat center center/cover;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-shadow: 2px 2px 4px #000;
+    }
+    .hero h1 {
+      font-size: 3rem;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .menu-items {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: space-around;
+    }
+    .menu-item {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 1rem;
+      width: 200px;
+      text-align: center;
+    }
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      max-width: 400px;
+      margin: auto;
+    }
+    .contact-form input, .contact-form textarea {
+      padding: 0.8rem;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    .contact-form button {
+      background: #8B4513;
+      color: #fff;
+      border: none;
+      padding: 0.8rem;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #5C3D2E;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Rishabh cafe</h1>
+    <p>Your daily dose of comfort & coffee</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h1>Welcome to Rishabh Café</h1>
+  </div>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>At Rishabh Café, we blend passion with flavor. Enjoy our hand-crafted coffees, fresh pastries, and a cozy atmosphere that feels like home. Whether you're grabbing a quick espresso or settling in with friends, we’re here to make your day better.</p>
+  </section>
+
+  <section id="menu" class="section">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="menu-item">
+        <h3>Espresso</h3>
+        <p>$3.00</p>
+      </div>
+      <div class="menu-item">
+        <h3>Cappuccino</h3>
+        <p>$4.50</p>
+      </div>
+      <div class="menu-item">
+        <h3>Latte</h3>
+        <p>$4.00</p>
+      </div>
+      <div class="menu-item">
+        <h3>Blueberry Muffin</h3>
+        <p>$2.75</p>
+      </div>
+      <div class="menu-item">
+        <h3>Bagel & Cream Cheese</h3>
+        <p>$3.50</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Arif Shaikh" required/>
+      <input type="email" placeholder="@pshyco_arif1@gmail.com" required/>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Cozy Café. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
